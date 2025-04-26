@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaniz Ferdaous - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo"><a href="index.html">Kaniz<span>Ferdaous</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="side-menu-header">
+            <div class="logo">Kaniz<span>Ferdaous</span></div>
+            <div class="close-menu">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="side-menu-footer">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Email: kanizferdaous@gmail.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+    
+    <!-- Overlay for clicking outside menu to close -->
+    <div class="menu-overlay"></div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="images/kaniz.jpg" alt="Kaniz Ferdaous" class="profile-img">
+                <h1>Hi, I'm Kaniz Ferdaous</h1>
+                <p>Web Developer & UI/UX Designer</p>
+                <div class="hero-btns">
+                    <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <p>What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/web.jpg" alt="Web Development">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies that are responsive, fabt, and user-friendly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/ux-ui-design-icon-outline-illustration-vector.jpg" alt="UI/UX Design">
+                
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creative and intuitive user interface designs that enhance user experience and engagement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/ux-ui design.jpg" alt="Mobile Development">
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Mobile-friendly applications that work seamlessly across all devices and platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-work">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Work</h2>
+                <p>Some of my latest projects</p>
+            </div>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="images/project1.png" alt="Project 1">
+                    <div class="work-overlay">
+                        <h3>E-Commerce Website</h3>
+                        <p>Web Development</p>
+                        <a href="portfolio.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="work-overlay">
+                        <h3>Mobile App UI</h3>
+                        <p>UI/UX Design</p>
+                        <a href="portfolio.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <div class="work-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Web Development</p>
+                        <a href="portfolio.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="portfolio.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>What my clients say</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote">"Kaniz created an amazing website for our business that exceeded all expectations. Highly recommended!"</div>
+                    <div class="client-info">
+                        <img src="/api/placeholder/60/60" alt="Client 1">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">"Working with Kaniz was a pleasure. The redesign of our app interface has significantly improved user engagement."</div>
+                    <div class="client-info">
+                        <img src="/api/placeholder/60/60" alt="Client 2">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <p>Product Manager, AppSolutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>Have a project in mind? Get in touch and let's create something amazing.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Kaniz<span>Ferdaous</span></div>
+                    <p>Web Developer & UI/UX Designer</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p>Email: kanizferdaous@gmail.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kaniz Ferdaous. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add script at the end of the body -->
+    <script>
+        // Toggle Side Menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sideMenu = document.querySelector('.side-menu');
+        const closeMenu = document.querySelector('.close-menu');
+        const menuOverlay = document.querySelector('.menu-overlay');
+        
+        menuToggle.addEventListener('click', () => {
+            sideMenu.classList.add('active');
+            menuOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+        });
+        
+        function closeMenuFunction() {
+            sideMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+        
+        closeMenu.addEventListener('click', closeMenuFunction);
+        menuOverlay.addEventListener('click', closeMenuFunction);
+    </script>
+</body>
+</html>
